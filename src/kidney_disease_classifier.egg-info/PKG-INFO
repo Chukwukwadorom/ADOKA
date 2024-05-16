@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: kidney_disease_classifier
+Version: 0.0.0
+Summary: A small python package for CNN app
+Home-page: https://github.com/Chukwukwadorom/Automated-Diagnosis-of-Kidney-Abnormalities-from-Medical-Imaging-using-Machine-Learning
+Author: Chukwukwadorom
+Author-email: chukwukwadoromnwattah@gmail.com
+Project-URL: Bug Tracker, https://github.com/Chukwukwadorom/Automated-Diagnosis-of-Kidney-Abnormalities-from-Medical-Imaging-using-Machine-Learning/issues
+
+I reimagined the kidney disease classication problem by building an Automated Diagnosis of 
+Kidney Abnormalities from Medical Imaging using Machine Learning. 
+That is a mouthful, i know, but its just an End to end machine learning and MLOps project
+ to bring the classifier to your browser.
