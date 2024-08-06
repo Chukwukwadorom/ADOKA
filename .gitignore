@@ -1,2 +1,9 @@
 .env
-research/kidney-CT-Scan-data.zip
+__pycache__/
+wheels/
+share/python-wheels/
+*.egg-info/
+artifacts/*
+.installed.cfg
+*.egg
+src/*.egg-info/*
