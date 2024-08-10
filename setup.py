@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Automated-Diagnosis-of-Kidney-Abnormalities-from-Medical-Imaging-using-Machine-Learning"
+REPO_NAME = "ADOKA"
 AUTHOR_USER_NAME = "Chukwukwadorom"
 SRC_REPO = "kidney_disease_classifier"
 AUTHOR_EMAIL = "chukwukwadoromnwattah@gmail.com"

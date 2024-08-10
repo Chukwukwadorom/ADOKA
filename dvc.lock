@@ -70,7 +70,7 @@ stages:
     params:
       params.yaml:
         AUGMENTATION: true
-        BATCH_SIZE: 16
+        BATCH_SIZE: 32
         EPOCHS: 1
         IMAGE_SIZE:
         - 224
@@ -79,7 +79,7 @@ stages:
     outs:
     - path: artifacts/training/model.h5
       hash: md5
-      md5: ad49f551adf6ea56bcadc5aacfbb8a08
+      md5: 6e6980b7df1269d8b973523d67e74f33
       size: 60142936
   evaluation:
     cmd: python src/kidney_disease_classifier/pipeline/stage_04_model_evaluation.py
@@ -92,7 +92,7 @@ stages:
       nfiles: 12446
     - path: artifacts/training/model.h5
       hash: md5
-      md5: ad49f551adf6ea56bcadc5aacfbb8a08
+      md5: 6e6980b7df1269d8b973523d67e74f33
       size: 60142936
     - path: config/config.yaml
       hash: md5
@@ -104,7 +104,7 @@ stages:
       size: 923
     params:
       params.yaml:
-        BATCH_SIZE: 16
+        BATCH_SIZE: 32
         IMAGE_SIZE:
         - 224
         - 224
@@ -112,5 +112,5 @@ stages:
     outs:
     - path: scores.json
       hash: md5
-      md5: 124bf6ac4781b360737623744a43e624
-      size: 69
+      md5: 0e43549c0f8de99c700b98bf1bbb3f8d
+      size: 70
