@@ -24,20 +24,34 @@ Features
 Project Structure
 <pre>
 <code>
-├── src
-│   ├── kidney_disease_classifier
-│   │   └── pipeline
-│   │       └── prediction_pipeline.py  # Contains the predict function
-├── assets
-│   └── kidney_logo.jpg  # Logo for the app
-├── app.py  # Main Streamlit app
-├── requirements.txt  # Python dependencies
-├── Dockerfile  # Docker configuration
-├── dvc.yaml  # DVC pipeline definition
-├── mlflow_experiments  # MLflow experiment logs
-├── .dvc  # DVC configuration files
-├── .dagshub  # DagsHub configuration
-└── README.md  # Project documentation
+├── app.py                 # Main Streamlit app
+├── assets                 # Contains static assets like the logo
+├── Dockerfile             # Docker configuration
+├── dvc.yaml               # DVC pipeline definition
+├── main.py                # Entry point for the application
+├── README.md              # Project documentation
+├── research               # Research and development files
+├── setup.py               # Setup script for package installation
+├── template.py            # Template file for app structure
+├── workflow.txt           # Workflow description
+├── artifacts              # Directory for storing model artifacts
+├── config                 # Configuration files
+├── dvc.lock               # DVC lock file
+├── logs                   # Directory for logging information
+├── params.yaml            # Parameters for model training
+├── requirements.txt       # Python dependencies
+├── scores.json            # Model scores and evaluation metrics
+├── src                    # Source code for the application
+│   └── kidney_disease_classifier
+│       ├── components     # Core components of the application
+│       ├── config         # Configuration handling
+│       ├── constants      # Constant definitions used across the project
+│       ├── entity         # Entity classes for structured data representation
+│       ├── __init__.py    # Package initialization
+│       ├── pipeline       # Pipeline for prediction and model handling
+│       ├── __pycache__    # Compiled Python files
+│       └── utils          # Utility functions
+├── templates              # HTML templates for the app
 </code>
 </pre>
 Getting Started
@@ -46,7 +60,7 @@ Prerequisites
 Installation
 <ol>
   <li><strong>Clone the repository:</strong>
-    <pre><code>git clone https://github.com/your-username/ADOKA.git
+    <pre><code>git clone https://github.com/Chukwukwadorom/ADOKA.git
 cd ADOKA</code></pre>
   </li>
   <li><strong>Set up DVC:</strong>
