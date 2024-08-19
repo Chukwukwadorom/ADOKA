@@ -96,13 +96,16 @@ Data Versioning with DVC
 Pipeline Management with DagsHub
 <p>DagsHub integrates with both DVC and MLflow, providing a collaborative platform for version control, experiment tracking, and pipeline management. The project is configured to use DagsHub as a remote storage and pipeline orchestrator.</p>
 
-I used this workflow:
-Update config.yaml
-Update secrets.yaml [Optional]
-Update params.yaml
-Update the entity
-Update the configuration manager in src config
-Update the components
-Update the pipeline
-Update the main.py
-Update the dvc.yaml
+<h3>Workflow</h3>
+<p>I used this workflow i leant from entbappy:</p>
+<ol>
+  <li><strong>Update <code>config.yaml</code></strong></li>
+  <li><strong>Update <code>secrets.yaml</code></strong> <em>[Optional]</em></li>
+  <li><strong>Update <code>params.yaml</code></strong></li>
+  <li><strong>Update the entity</strong></li>
+  <li><strong>Update the configuration manager in <code>src/config</code></strong></li>
+  <li><strong>Update the components</strong></li>
+  <li><strong>Update the pipeline</strong></li>
+  <li><strong>Update <code>main.py</code></strong></li>
+  <li><strong>Update <code>dvc.yaml</code></strong></li>
+</ol>
